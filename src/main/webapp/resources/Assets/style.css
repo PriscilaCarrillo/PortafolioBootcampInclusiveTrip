@@ -1,0 +1,538 @@
+@charset "UTF-8";
+
+/*CSS DEL INDEX**/
+header {
+  text-align: center;
+  background-image: url(img/banner3.jpg);
+  color: rgb(255, 255, 255);
+  background-size: cover; /**BANNER*/
+}
+
+h1 {
+
+  font-family: 'Abril Fatface', cursive;  /*Letra banner INCLUSIVETRIP**/
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  }
+
+h4{
+  
+  font-family: 'Raleway', sans-serif; /*Letra banner TUS PLANES...**/
+  font-style: italic;
+ 
+  }
+
+  /*COLOR DE FONDO**/
+body {
+  
+  background-color: white;
+}
+
+/*NAVBAR**/
+#navbarNav{
+  
+  font-family: 'Raleway', sans-serif;
+  margin-right: 50px;
+ 
+}
+
+#titulo{
+  font-weight: bold;
+}
+
+#contextotitulo{
+  font-style: italic;
+}
+
+/*IMAGEN DE LAS TURISTAS EN GALERIA**/
+
+#turid img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  #turid img {
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #turid img {
+    max-width: 100%;
+  }
+}
+
+/*CARRUSEL**/
+.carousel-inner img {
+  width: 60%;
+  max-height: 500px;
+  height: 500px;
+  margin-left: 0%;
+  margin-right: 10%;
+}
+
+
+#presentacionitinerario {     
+
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+#galeriaPres {
+
+  font-family: 'Raleway', sans-serif;
+}
+
+#pres4 {
+
+  font-family: 'Raleway', sans-serif;
+}
+
+
+#galeriaTitulo{
+  
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  background-color: rgb(135, 206, 235)
+}
+
+/*CSS ITINERARIO**/
+
+#tituloitinerario {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  
+  
+}
+
+#iti{
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  background-color: rgb(135, 206, 235)
+}
+
+#contextotitulo {
+  font-size: 1.2rem;
+}
+
+.contenedoritinerario {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.columna {
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+select {
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+form:last-of-type select {
+  margin-bottom: 0;
+}
+
+
+/* Estilo general para el cuerpo de la página */
+body {
+  background-color: #F5F5F5;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  background-image: url(/img/valparaiso1.jpg);
+
+}
+
+/* Estilo para los títulos principales */
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #444;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+/* Estilo para los formularios */
+form {
+  margin: 1rem 0;
+  padding: 1rem;
+  background-color: #FFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  background-color: #F9F9F9;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los botones */
+button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #FFF;
+  background-color: #444;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+
+
+
+
+
+
+
+/*TITULO DE BIENVENIDA A INCLUSIVE TRIP**/
+#titulo{
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+
+/*COMIENZO DE CARDS**/
+#cerrotitulo{      
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+#cerrocontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#hotelestitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#hotelescontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#museostitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#museoscontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#ascensorestitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#ascensorescontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#restaurantestitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#restaurantescontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#pubstitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#pubscontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#tourstitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#tourscontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+#eventostitulo{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+#eventoscontenido{
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*EFECTO DE CARDS**/
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.card:hover:before {
+  opacity: 1;
+} 
+
+
+
+/*TERMINO DE CARDS**/
+
+
+#tituloMapa{
+  font-family: 'Raleway', sans-serif;
+  justify-content: center;
+  background-color: rgb(135, 206, 235)
+
+}
+
+#mapaPres{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+/*FOOTER**/
+#logofooter{
+  display: flex;
+  justify-content: center;
+}
+
+/*FOOTER DEL CORREO ELECTRONICO**/
+#form5Example2{
+  
+
+}
+
+
+/*CSS DEL INDEX**/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#li {
+  cursor: pointer;
+  padding: 4px 0;
+}
+
+#li:hover {
+  background-color: #f1f1f1;
+}
+
+.selected {
+  background-color: #ccc;
+}
+
+
+/* DE AQUI PARA ABAJO CSS DE LA GALERIA**/
+
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.item {
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.item:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.item:hover .overlay {
+  opacity: 1;
+}
+
+#titulogaleria{
+  text-align: center;
+}
+
+#contextogaleria{
+	text-align: center;
+}
+/*PERSONAS EN FOTOS DE GALERIA**/
+.nombrepersonas{
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.comentariopersonas{
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+/* DE AQUI PARA ABAJO CSS DEL LOGIN**/
+
+/* DE AQUI PARA ABAJO CSS DEL CONTACTO**/
+
+#titulocontacto{
+	font-family: 'Raleway', sans-serif;
+	font-weight: lighter;          /*ARREGLAR FUENTE TITULO DEL FORMULARIO DE CONTACTO**/
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+   border-radius: 5px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  background-color: #007aff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+input:invalid,
+textarea:invalid {
+  border-color: rgb(7, 74, 245);
+}
+
+
+
+
